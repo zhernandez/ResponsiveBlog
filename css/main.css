@@ -1,0 +1,46 @@
+section{
+	background:  #1a0033;
+	}
+header{
+	background: #0f001a;
+	}
+.pull-right{
+	float:right;
+	}	
+.mar-1{
+	margin: 2em 1em;
+	}		/* Inserta tu codigo aqui */
+.may{
+	text-transform: uppercase;
+}
+.text-clear{
+	color: #eee;
+}
+.ita{
+
+}
+.ttl{
+	width: 18em;
+	height: auto;
+}
+.vio{
+	background: url(../image/header-image.jpg);
+	height: 30em;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+}	
+.prim{
+	font-family: 'Courgette', cursive;
+	color: #ffbb55;
+}
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
