@@ -17,7 +17,7 @@ header{
 	color: #eee;
 }
 .ita{
-
+    font-style: italic;
 }
 .ttl{
 	width: 18em;
@@ -30,17 +30,61 @@ header{
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
-}	
+}
+.vio{
+	background: url(../image/header-image.jpg);
+	height: 30em;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+    padding: 2em;
+    }	
 .prim{
 	font-family: 'Courgette', cursive;
 	color: #ffbb55;
+	font-weight: bolder;
+}
+.cube{
+	background:#0f001a;
+    padding: 1em;
+}
+.mar-2{
+	margin: 5em 10em;
+}
+.mosaico{
+	width: 26em;
+	height: auto;
+	background: #0f001a;
+}
+.pd-b{
+	padding-bottom: 2em;
+}
+.bloque{
+	width: 50em;
+	height: auto;
+    background: #0f001a;
 }
 /* Responsive */
 
 @media screen and (max-width : 920px) {
-
+	
 }
 
-@media screen and (max-width: 600px) {
-
+@media (min-width: 0px) and (max-width: 600px) {
+   .mar-2{
+   	margin: 1em 1em;
+   }
+   .vio{
+   	padding: 0em;
+   }
+   .container{
+   	width: 500px;
+   }
+   .mosaico{
+   	width: 35em;
+   }
+   .bloque{
+   	width: 35em;
+   }
 }
