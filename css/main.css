@@ -45,12 +45,15 @@ header{
 	color: #ffbb55;
 	font-weight: bolder;
 }
+.gordi{
+	font-size: 600%
+}
 .cube{
 	background:#0f001a;
     padding: 1em;
 }
 .mar-2{
-	margin: 5em 10em;
+	margin: 5em 15em;
 }
 .mosaico{
 	width: 26em;
@@ -65,13 +68,28 @@ header{
 	height: auto;
     background: #0f001a;
 }
+.coso{
+	width: 30em;
+	height: auto;
+    background: #0f001a;
+    padding: 1em;
+    margin-left: -4em;
+}
 /* Responsive */
 
-@media screen and (max-width : 920px) {
-	
+@media (min-width: 600px) and (max-width : 920px) {
+   .container{
+   	width: 600px;
+   }	
+   .mosaico{
+   	width: 100%;
+   }
+   .bloque{
+   	width: 40em;
+   }
 }
 
-@media (min-width: 0px) and (max-width: 600px) {
+@media (min-width: 500px) and (max-width: 600px) {
    .mar-2{
    	margin: 1em 1em;
    }
